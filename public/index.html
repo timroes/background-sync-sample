@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Background Sync Sample</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>#pwa</h1>
+
+		<div id="chat"></div>
+
+		<form id="message-input">
+			<input id="message-text" type="text" placeholder="Your message" autocomplete="off">
+			<button type="submit">Send</button>
+		</form>
+
+		<script src="/libs/pouchdb/dist/pouchdb.min.js"></script>
+		<script src="/libs/jquery/dist/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
